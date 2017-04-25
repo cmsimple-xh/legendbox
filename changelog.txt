@@ -1,0 +1,13 @@
+Legendbox by svasti
+
+0.1
+    - 2/2014 first published as addon
+
+0.1.1
+    - 2/2014 as addon
+
+0.2
+    - 3/2015 as addon
+
+0.3
+    - 6/2015 as plugin

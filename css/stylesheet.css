@@ -1,0 +1,66 @@
+/* for all legendboxes */
+.legendbox input.text,
+.legendbox textarea {
+    width:100%;
+    box-sizing: border-box;
+}
+.legendbox {
+    width:100%;
+    max-width:250px;
+    padding:1em;
+}
+
+
+/* individual styles */
+.legendbox_grey {
+    float:right;
+    margin:0 0 1em .5em;
+    border:3px solid #ccc;
+    border-radius: .4em;
+}
+.legendbox_grey legend {
+    font-weight:bold;
+    color:#444;
+}
+
+
+.legendbox_blue {
+    float:right;
+    margin:0 0 1em 1em;
+    background:#eee;
+    border:2px solid #008;
+    border-radius: .5em;
+}
+.legendbox_blue legend {
+    font-weight:bold;
+    color:#008;
+}
+
+
+.legendbox_green {
+    float:left;
+    margin:0 2em 1em 0;
+    background:#efe;
+    border:1px solid green;
+}
+.legendbox_green legend {
+    font-weight:bold;
+    color:#060;
+}
+
+
+.legendbox_red {
+    clear:both;
+    width: 200px;
+    padding:2em 3em;
+    margin: 1em auto;
+    border:4px dotted red;
+}
+.legendbox_red legend {
+    text-align:center;
+    width:100%;
+    color:#a06;
+    font-size:120%;/*IE8*/
+    font-size:1.1rem;
+    font-weight:normal;
+}
