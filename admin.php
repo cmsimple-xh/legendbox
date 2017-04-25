@@ -15,8 +15,9 @@ if (!defined('CMSIMPLE_XH_VERSION')) {
 /**
  * Plugin administration
  */
-initvar('legendbox');
-if ($legendbox) {
+if (function_exists('XH_wantsPluginAdministration') && XH_wantsPluginAdministration('legendbox')
+	|| isset($legendbox) && $legendbox === 'true'
+) {
     initvar('admin');
     initvar('action');
 
