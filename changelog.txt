@@ -11,3 +11,6 @@ Legendbox by svasti
 
 0.3
     - 6/2015 as plugin
+
+0.3.2
+    see <https://github.com/cmsimple-xh/legendbox/milestone/1?closed=1>
